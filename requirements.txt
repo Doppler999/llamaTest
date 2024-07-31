@@ -3,3 +3,4 @@ gunicorn
 llama-cpp-python
 torch
 python-dotenv
+flask-cors
