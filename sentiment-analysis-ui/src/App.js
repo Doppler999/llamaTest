@@ -11,7 +11,7 @@ const App = () => {
     setResult(null);
 
     try {
-      const response = await fetch("http://localhost:5001/api/v1/sentiment", {
+      const response = await fetch("https://llamatest.onrender.com/api/v1/sentiment", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
